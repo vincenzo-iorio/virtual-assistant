@@ -6,18 +6,20 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
-    <Color x:Key="PrimaryDarkText">#242424</Color>
-    <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="SecondaryDarkText">#9880e5</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="Primary">#1E3A8A</Color>           <!-- Indigo 800 -->
+    <Color x:Key="PrimaryDark">#1E40AF</Color>       <!-- Indigo 900 -->
+    <Color x:Key="PrimaryDarkText">#F1F5F9</Color>    <!-- Slate 100 -->
+
+    <Color x:Key="Secondary">#93C5FD</Color>         <!-- Blue 300 -->
+    <Color x:Key="SecondaryDarkText">#1E3A8A</Color> <!-- Indigo 800 -->
+
+    <Color x:Key="Tertiary">#0F172A</Color>          <!-- Slate 900 -->
 
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
-    <Color x:Key="Magenta">#D600AA</Color>
-    <Color x:Key="MidnightBlue">#190649</Color>
-    <Color x:Key="OffBlack">#1f1f1f</Color>
+    <Color x:Key="Magenta">#3B82F6</Color>              <!-- Blue 500 -->
+    <Color x:Key="MidnightBlue">#0B1120</Color>      <!-- Deep midnight -->
+    <Color x:Key="OffBlack">#1F2937</Color>          <!-- Slate 800 -->
 
     <Color x:Key="Gray100">#E1E1E1</Color>
     <Color x:Key="Gray200">#C8C8C8</Color>

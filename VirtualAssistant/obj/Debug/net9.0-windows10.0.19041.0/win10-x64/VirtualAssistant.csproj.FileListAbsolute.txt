@@ -467,3 +467,11 @@ C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-
 C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\virtual_assistant.scale-100.jpeg
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\virtual_assistant.scale-100.jpeg
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\home.scale-100.png
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\chat.scale-100.png
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\login.scale-100.png
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\chat.scale-100.png
+C:\Users\iorio\source\repos\virtual-assistant\VirtualAssistant\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png

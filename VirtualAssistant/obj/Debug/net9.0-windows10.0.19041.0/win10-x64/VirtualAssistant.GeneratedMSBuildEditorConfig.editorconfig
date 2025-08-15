@@ -51,3 +51,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = VirtualAssistant.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/iorio/source/repos/virtual-assistant/VirtualAssistant/Views/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VirtualAssistant.Views.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ChatPage.xaml
+
+[C:/Users/iorio/source/repos/virtual-assistant/VirtualAssistant/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VirtualAssistant.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml

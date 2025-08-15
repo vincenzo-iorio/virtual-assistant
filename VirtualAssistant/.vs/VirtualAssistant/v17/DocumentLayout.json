@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E59454FE-BA69-42AD-A080-F1F133D97014}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E59454FE-BA69-42AD-A080-F1F133D97014}|VirtualAssistant.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\views\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:views\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|c:\\users\\iorio\\source\\repos\\virtual-assistant\\virtualassistant\\views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1C2995AA-DC4D-4E49-B673-74FC1BB0A676}|VirtualAssistant.csproj|solutionrelative:views\\loginpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,20 +53,133 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:34:39.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:17:44.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:39:09.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-15T12:39:10.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:14:19.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\App.xaml",
               "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-14T15:54:36.797Z",
+              "WhenOpened": "2025-08-15T14:14:03.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-15T14:08:26.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\ChatPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ChatPage.xaml",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\ChatPage.xaml",
+              "RelativeToolTip": "Views\\ChatPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-15T12:31:56.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-15T12:35:55.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\VirtualAssistant\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-15T11:56:53.326Z",
               "EditorCaption": ""
             }
           ]
