@@ -1,4 +1,4 @@
-<Window x:Class="VirtualAssistantMock.LoginWindow"
+<Window x:Class="VirtualAssistant.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Login" Width="300" Height="306"

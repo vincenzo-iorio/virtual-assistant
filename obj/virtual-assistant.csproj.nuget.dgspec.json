@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\virtual-assistant.csproj": {}
+    "C:\\Users\\iorio\\Source\\Repos\\virtual-assistant\\virtual-assistant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\virtual-assistant.csproj": {
+    "C:\\Users\\iorio\\Source\\Repos\\virtual-assistant\\virtual-assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\virtual-assistant.csproj",
+        "projectUniqueName": "C:\\Users\\iorio\\Source\\Repos\\virtual-assistant\\virtual-assistant.csproj",
         "projectName": "virtual-assistant",
-        "projectPath": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\virtual-assistant.csproj",
+        "projectPath": "C:\\Users\\iorio\\Source\\Repos\\virtual-assistant\\virtual-assistant.csproj",
         "packagesPath": "C:\\Users\\iorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iorio\\source\\repos\\virtual-assistant\\obj\\",
+        "outputPath": "C:\\Users\\iorio\\Source\\Repos\\virtual-assistant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

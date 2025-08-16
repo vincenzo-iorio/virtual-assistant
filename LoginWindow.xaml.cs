@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace VirtualAssistantMock
+namespace VirtualAssistant
 {
     public partial class LoginWindow : Window
     {
