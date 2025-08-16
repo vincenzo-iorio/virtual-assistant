@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("virtual-assistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1312b801e8a1f0840bdfe90b705f31dcb99b3064")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f931b0d895a35aff78cfc20a3dda560ca9545b61")]
 [assembly: System.Reflection.AssemblyProductAttribute("virtual-assistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("virtual-assistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
