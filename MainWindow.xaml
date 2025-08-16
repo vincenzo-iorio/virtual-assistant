@@ -1,0 +1,123 @@
+﻿<Window x:Class="VirtualAssistantMock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mini Copilot (Mock)" Width="540" Height="720"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI Variable"
+        SnapsToDevicePixels="True">
+
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F6F7FB" Offset="0"/>
+            <GradientStop Color="#ECEFF6" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <!-- Accent colors -->
+        <Color x:Key="Accent">#0078D4</Color>
+        <Color x:Key="AccentHover">#0B6AA8</Color>
+        <Color x:Key="AccentPressed">#0A5D91</Color>
+
+        <!-- Rounded primary button -->
+        <Style x:Key="AccentButton" TargetType="Button">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="18,10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="8" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.6"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="18">
+        <Border Background="White" CornerRadius="14" Padding="18"
+                BorderBrush="#DDDDDD" BorderThickness="1">
+            <Border.Effect>
+                <DropShadowEffect Color="#33000000" BlurRadius="16" ShadowDepth="4" Opacity="0.5"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Enhanced Header -->
+                <Grid Grid.Row="0" Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <!-- Left: Title -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- Center: Model selector -->
+                        <ColumnDefinition Width="Auto"/>
+                        <!-- Right: Login -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Title -->
+                    <StackPanel Grid.Column="0" Orientation="Vertical">
+                        <TextBlock Text="Mini Copilot" FontSize="22" FontWeight="SemiBold" Foreground="#222"/>
+                        <TextBlock Text="Beautiful single-page mock UI (WPF + XAML)"
+                                   FontSize="12" Margin="0,4,0,0" Foreground="#666"/>
+                    </StackPanel>
+
+                    <!-- Model Selector -->
+                    <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled"
+                                  Margin="20,0" Height="40">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button Content="Phi-3" Style="{StaticResource AccentButton}" Margin="0,0,10,0"/>
+                            <Button Content="Orca-2" Style="{StaticResource AccentButton}" Margin="0,0,10,0"/>
+                            <Button Content="Kosmos-2" Style="{StaticResource AccentButton}" Margin="0,0,10,0"/>
+                            <Button Content="Godel" Style="{StaticResource AccentButton}" Margin="0,0,10,0"/>
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <!-- Login Button -->
+                    <Button Grid.Column="2" Content="Login" Style="{StaticResource AccentButton}" Width="80" Height="30"
+                            VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                </Grid>
+
+                <!-- Chat -->
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Background="Transparent">
+                    <StackPanel x:Name="ChatPanel" Margin="0,8"/>
+                </ScrollViewer>
+
+                <!-- Input -->
+                <Grid Grid.Row="2" Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Background="#FAFAFA" CornerRadius="8" BorderBrush="#D6D6D6" BorderThickness="1" Padding="10" Margin="0,0,10,0" Height="58" VerticalAlignment="Top">
+                        <TextBox x:Name="QuestionBox" BorderThickness="0" Background="Transparent" Foreground="#333"
+                                 CaretBrush="Blue" FontSize="14" MinHeight="36"
+                                 KeyDown="QuestionBox_KeyDown"/>
+                    </Border>
+
+                    <Button x:Name="AskButton" Grid.Column="1" Style="{StaticResource AccentButton}" Content="Ask" Click="AskButton_Click"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
