@@ -5,7 +5,6 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Effects;
-using VirtualAssistant;
 
 namespace VirtualAssistant
 {
@@ -13,14 +12,21 @@ namespace VirtualAssistant
     {
         private Border _typingBubble;
 
+        // Stato utente
+        public string Username { get; set; } = "Vincenzo";
+        public string UserAvatar { get; set; } = "Images/default-avatar.png"; // Percorso relativo o assoluto
+        public bool IsLoggedIn { get; set; } = false;
+
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this;
 
-            // Seed welcome message
+            // Messaggio di benvenuto
             AddMessage("Hi Vincenzo! I’m your local assistant. Ask me anything and I’ll show a placeholder answer.", fromUser: false);
         }
 
+        // Invio domanda
         private async void AskButton_Click(object sender, RoutedEventArgs e)
         {
             string question = QuestionBox.Text.Trim();
@@ -37,6 +43,7 @@ namespace VirtualAssistant
             ScrollToEnd();
         }
 
+        // Invio con Enter
         private void QuestionBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter && (Keyboard.Modifiers & ModifierKeys.Shift) == 0)
@@ -46,6 +53,7 @@ namespace VirtualAssistant
             }
         }
 
+        // Mostra "Typing…"
         private void ShowTypingIndicator()
         {
             if (_typingBubble != null) return;
@@ -69,6 +77,7 @@ namespace VirtualAssistant
             _typingBubble = null;
         }
 
+        // Aggiunge messaggio nella chat
         private void AddMessage(string text, bool fromUser)
         {
             var tb = new TextBlock
@@ -84,6 +93,7 @@ namespace VirtualAssistant
             ScrollToEnd();
         }
 
+        // Crea "bolla" grafica
         private Border MakeBubble(UIElement content, bool fromUser)
         {
             var accent = (Color)ColorConverter.ConvertFromString("#0078D4");
@@ -110,6 +120,7 @@ namespace VirtualAssistant
             };
         }
 
+        // Login
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             var loginWindow = new LoginWindow
@@ -119,15 +130,33 @@ namespace VirtualAssistant
 
             if (loginWindow.ShowDialog() == true)
             {
-                MessageBox.Show($"Welcome, {loginWindow.Username}!", "Login Successful", MessageBoxButton.OK, MessageBoxImage.Information);
-                // You can now store loginWindow.Username or update UI
+                // Salva i dati dal login
+                IsLoggedIn = true;
+                Username = loginWindow.Username ?? Username;
+
+                MessageBox.Show($"Welcome, {Username}!", "Login Successful", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                // Cambia il pulsante in "Account"
+                if (sender is Button btn)
+                {
+                    btn.Content = "Account";
+                    btn.Click -= LoginButton_Click;
+                    btn.Click += Settings_Click;
+                }
             }
         }
 
+        // Account
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+            var accountWindow = new AccountWindow(Username, "vincenzo@example.com", UserAvatar);
+            accountWindow.Owner = this;
+            accountWindow.ShowDialog();
+        }
 
+        // Scorrimento chat alla fine
         private void ScrollToEnd()
         {
-            // Ensures the newest bubble is visible
             if (ChatPanel.Parent is ScrollViewer sc)
             {
                 sc.ScrollToEnd();

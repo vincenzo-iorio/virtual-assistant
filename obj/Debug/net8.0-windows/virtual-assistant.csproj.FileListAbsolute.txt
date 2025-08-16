@@ -20,3 +20,5 @@ C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\virtual-a
 C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\ref\virtual-assistant.dll
 C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\LoginWindow.baml
 C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\AccountWindow.baml
+C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\AccountWindow.g.cs

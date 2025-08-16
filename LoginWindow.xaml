@@ -16,7 +16,7 @@
         <TextBox x:Name="UsernameBox" Grid.Row="1" Margin="0,6,0,12"/>
 
         <TextBlock Text="Password" Grid.Row="2" FontWeight="SemiBold"/>
-        <PasswordBox x:Name="PasswordBox" Grid.Row="3" Margin="0,6,0,136"/>
+        <PasswordBox x:Name="PasswordBox" Grid.Row="3" Margin="0,6,0,142"/>
 
         <Button Grid.Row="3" Content="Login" Height="32" Width="80" HorizontalAlignment="Center"
                 Click="LoginButton_Click" Margin="0,58,0,10"/>

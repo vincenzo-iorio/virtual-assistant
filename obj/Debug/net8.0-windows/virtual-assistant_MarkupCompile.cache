@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\iorio\Source\Repos\virtual-assistant\obj\Debug\net8.0-windows\
+C:\Users\iorio\source\repos\virtual-assistant\obj\Debug\net8.0-windows\
 virtual_assistant
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\iorio\Source\Repos\virtual-assistant\App.xaml
-2-216653475
+C:\Users\iorio\source\repos\virtual-assistant\App.xaml
+3-1755005289
 
-51416997863
+6-1734405667
 198-2136442823
-LoginWindow.xaml;MainWindow.xaml;
+AccountWindow.xaml;LoginWindow.xaml;MainWindow.xaml;
 
 False
 
