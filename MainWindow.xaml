@@ -1,7 +1,7 @@
-﻿<Window x:Class="VirtualAssistantMock.MainWindow"
+﻿<Window x:Class="VirtualAssistant.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Mini Copilot (Mock)" Width="540" Height="720"
+        Title="Virtual Assistant" Width="540" Height="720"
         WindowStartupLocation="CenterScreen"
         FontFamily="Segoe UI Variable"
         SnapsToDevicePixels="True">
@@ -76,8 +76,8 @@
 
                     <!-- Title -->
                     <StackPanel Grid.Column="0" Orientation="Vertical">
-                        <TextBlock Text="Mini Copilot" FontSize="22" FontWeight="SemiBold" Foreground="#222"/>
-                        <TextBlock Text="Beautiful single-page mock UI (WPF + XAML)"
+                        <TextBlock Text="Virtual Assistant" FontSize="22" FontWeight="SemiBold" Foreground="#222"/>
+                        <TextBlock Text="MicroSoft Only"
                                    FontSize="12" Margin="0,4,0,0" Foreground="#666"/>
                     </StackPanel>
 
@@ -94,7 +94,7 @@
 
                     <!-- Login Button -->
                     <Button Grid.Column="2" Content="Login" Style="{StaticResource AccentButton}" Width="80" Height="30"
-                            VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                            VerticalAlignment="Top" HorizontalAlignment="Right" Click="LoginButton_Click"/>
                 </Grid>
 
                 <!-- Chat -->

@@ -5,8 +5,9 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Effects;
+using VirtualAssistantMock;
 
-namespace VirtualAssistantMock
+namespace VirtualAssistant
 {
     public partial class MainWindow : Window
     {
@@ -17,7 +18,7 @@ namespace VirtualAssistantMock
             InitializeComponent();
 
             // Seed welcome message
-            AddMessage("Hi Vincenzo! I’m your local mock assistant. Ask me anything and I’ll show a placeholder answer.", fromUser: false);
+            AddMessage("Hi Vincenzo! I’m your local assistant. Ask me anything and I’ll show a placeholder answer.", fromUser: false);
         }
 
         private async void AskButton_Click(object sender, RoutedEventArgs e)
@@ -108,6 +109,21 @@ namespace VirtualAssistantMock
                 Child = content
             };
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = new LoginWindow
+            {
+                Owner = this
+            };
+
+            if (loginWindow.ShowDialog() == true)
+            {
+                MessageBox.Show($"Welcome, {loginWindow.Username}!", "Login Successful", MessageBoxButton.OK, MessageBoxImage.Information);
+                // You can now store loginWindow.Username or update UI
+            }
+        }
+
 
         private void ScrollToEnd()
         {
